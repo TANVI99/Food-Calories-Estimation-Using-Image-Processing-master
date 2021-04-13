@@ -1,5 +1,5 @@
 body {
- background-image: url("picture.jpg");
+ background-image: url("/static/picture.jpg");
  background-color: #cccccc;
 }
 h1 {text-align: center;}
