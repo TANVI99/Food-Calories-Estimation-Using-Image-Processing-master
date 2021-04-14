@@ -3,7 +3,7 @@ import os
 from werkzeug.utils import secure_filename
 from flask_ngrok import run_with_ngrok
 app = Flask(__name__, )
-app.config['UPLOAD_FOLDER'] = 'Food-Calories-Estimation-Using-Image-Processing-master/uploads/'
+app.config['UPLOAD_FOLDER'] = '/Users/tanvigolwelkar/Desktop'
 run_with_ngrok(app)
 
 @app.route("/")
