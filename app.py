@@ -2,7 +2,7 @@
 from flask import Flask, render_template,flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
 from flask_ngrok import run_with_ngrok
-UPLOAD_FOLDER = '/uploads'
+app.config['UPLOAD_FOLDER'] = '/uploads'
 app = Flask(__name__, )
 run_with_ngrok(app)
 
